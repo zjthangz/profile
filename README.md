@@ -1,2 +1,2 @@
 # Profile
-This profile includes all the projects I did during my academic career
+This profile includes some projects I did during my academic career
