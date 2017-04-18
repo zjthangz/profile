@@ -1,0 +1,114 @@
+﻿生成启动时间为 2015/10/7 15:13:04。
+     1>项目“B:\study\图形学实验\图形学实验\assig2-base\assig2.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“build\assig2.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\support /I.\support\irrklang /I".\objects-student" /I".\objects-standard" /I.\basicsource /I.\shaders /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"prefix.h" /Fp"build\assig2.pch" /Fo"build\\" /Fd"build\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt basicsource\prefix.cpp
+         prefix.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\support /I.\support\irrklang /I".\objects-student" /I".\objects-standard" /I.\basicsource /I.\shaders /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"prefix.h" /Fp"build\assig2.pch" /Fo"build\\" /Fd"build\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt basicsource\main.cpp basicsource\scene.cpp basicsource\utility.cpp "objects-standard\billboard.cpp" "objects-standard\cube.cpp" "objects-standard\cylinder.cpp" "objects-standard\disc.cpp" "objects-standard\extrusion.cpp" "objects-standard\particle.cpp" "objects-standard\particlesys.cpp" "objects-standard\plane.cpp" "objects-standard\sphere.cpp" "objects-standard\sweep.cpp" "objects-standard\terrain.cpp" "objects-standard\torus.cpp" "objects-standard\tsphere.cpp" "objects-student\composite3.cpp" "objects-student\egg.cpp" "objects-student\composite1.cpp" "objects-student\composite2.cpp" "objects-student\house.cpp" "objects-student\sign.cpp" "objects-student\tcube.cpp" "objects-student\triangle.cpp" support\camera.cpp support\face.cpp support\fog.cpp support\light.cpp support\matrix.cpp support\object3d.cpp support\platform.cpp support\skybox.cpp support\snd.cpp support\texture.cpp support\vectr.cpp support\vertex.cpp support\viewfrustum.cpp shaders\fragmentshader.cpp shaders\Noise3DTexture.cpp shaders\shaderprogram.cpp shaders\vertexshader.cpp
+         main.cpp
+         scene.cpp
+     1>basicsource\scene.cpp(125): warning C4800: “void (__cdecl *)(vectr)”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>basicsource\scene.cpp(128): warning C4800: “void (__cdecl *)(vectr)”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>basicsource\scene.cpp(131): warning C4800: “void (__cdecl *)(vectr)”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>basicsource\scene.cpp(134): warning C4800: “void (__cdecl *)(vectr)”: 将值强制为布尔值“true”或“false”(性能警告)
+         utility.cpp
+         billboard.cpp
+         cube.cpp
+         cylinder.cpp
+         disc.cpp
+         extrusion.cpp
+         particle.cpp
+         particlesys.cpp
+         plane.cpp
+         sphere.cpp
+         sweep.cpp
+         terrain.cpp
+         torus.cpp
+         tsphere.cpp
+         composite3.cpp
+         egg.cpp
+         composite1.cpp
+         composite2.cpp
+         正在生成代码...
+         正在编译...
+         house.cpp
+         sign.cpp
+         tcube.cpp
+         triangle.cpp
+         camera.cpp
+         face.cpp
+         fog.cpp
+         light.cpp
+         matrix.cpp
+         object3d.cpp
+         platform.cpp
+         skybox.cpp
+         snd.cpp
+         texture.cpp
+         vectr.cpp
+         vertex.cpp
+         viewfrustum.cpp
+         fragmentshader.cpp
+         Noise3DTexture.cpp
+         shaderprogram.cpp
+         正在生成代码...
+         正在编译...
+         vertexshader.cpp
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"build\assig2.exe" /NOLOGO /LIBPATH:support glew32.lib SOIL.lib irrKlang.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"build\assig2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"B:\study\图形学实验\图形学实验\assig2-base\build\assig2.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"build\assig2.lib" /MACHINE:X86 build\main.obj
+         build\prefix.obj
+         build\scene.obj
+         build\utility.obj
+         build\billboard.obj
+         build\cube.obj
+         build\cylinder.obj
+         build\disc.obj
+         build\extrusion.obj
+         build\particle.obj
+         build\particlesys.obj
+         build\plane.obj
+         build\sphere.obj
+         build\sweep.obj
+         build\terrain.obj
+         build\torus.obj
+         build\tsphere.obj
+         build\composite3.obj
+         build\egg.obj
+         build\composite1.obj
+         build\composite2.obj
+         build\house.obj
+         build\sign.obj
+         build\tcube.obj
+         build\triangle.obj
+         build\camera.obj
+         build\face.obj
+         build\fog.obj
+         build\light.obj
+         build\matrix.obj
+         build\object3d.obj
+         build\platform.obj
+         build\skybox.obj
+         build\snd.obj
+         build\texture.obj
+         build\vectr.obj
+         build\vertex.obj
+         build\viewfrustum.obj
+         build\fragmentshader.obj
+         build\Noise3DTexture.obj
+         build\shaderprogram.obj
+         build\vertexshader.obj /LTCG /NODEFAULTLIB:libcmt 
+         正在生成代码
+         已完成代码的生成
+         assig2.vcxproj -> B:\study\图形学实验\图形学实验\assig2-base\build\assig2.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"build\assig2.exe;#1" /manifest build\assig2.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“build\assig2.unsuccessfulbuild”。
+         正在对“build\assig2.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“B:\study\图形学实验\图形学实验\assig2-base\assig2.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:19.53
