@@ -16,13 +16,13 @@ Then we pick one node in the column, then for all nodes in the row this node bel
 Dancing Links algorithm saves space because we don't need store 0, in the problem of Pentomino puzzle, each row has only 6 "1"s but 66 "0"s, thus DLX saves majority of data, meanwhile we do not need search every row at any column, which saves running time as well. 
 ## IMPLEMENTATION:
 1. Define patterns for 12 pieces (8+2+8+8+8+4+4+4+4+1+8+4=63). 
-	2. Create a board(box) with possibly several barriers. 
-	3. Calculated the set of all possible positions of pieces within the board. 
-	4. Generate matrix based on above. 
-	5. Transfer the matrix to Dancing Links. 
-	6. Run DLX to find solution or do backtrack. 
-	7. Put each solution into a hash map, together with its rotation, reverse to avoid duplication. 
-	8. Output solutions.   
+2. Create a board(box) with possibly several barriers. 
+3. Calculated the set of all possible positions of pieces within the board. 
+4. Generate matrix based on above. 
+5. Transfer the matrix to Dancing Links. 
+6. Run DLX to find solution or do backtrack. 
+7. Put each solution into a hash map, together with its rotation, reverse to avoid duplication. 
+8. Output solutions.   
 
 
 
